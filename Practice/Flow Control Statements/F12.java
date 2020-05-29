@@ -10,7 +10,7 @@ public class FC12 {
 			return;
 		}
 		for(int i=2;i<=Math.sqrt(x);i++) {
-			if(x%2==0) {
+			if(x%i==0) {
 				System.out.print("Not a prime number");
 				return;
 			}
