@@ -4,15 +4,15 @@ public class FC17 {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
+		StringBuilder rev=new StringBuilder();
 		int x=s.nextInt();
-		int temp,rev=0;
+		int temp;
 		while(x>0) {
 			temp=x%10;
-			rev=rev*10+temp;
+			rev.append(temp);
 			x/=10;
 		}
 		System.out.println(rev);
 		s.close();
 	}
-
 }
