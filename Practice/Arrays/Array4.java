@@ -10,7 +10,7 @@ public class Array4 {
 			c[i]=(char)s.nextInt();
 		}
 		for(int i=0;i<n;i++) {
-			System.out.print(c[i]);
+			System.out.print(c[i]+" ");
 		}
 		s.close();
 	}
